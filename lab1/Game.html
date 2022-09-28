@@ -5,15 +5,22 @@
 
 <style>
 .checkers td {
-	width: 80px;
-	height: 80px;
+	table-layout: fixed;
+	width: 70px;
+	height: 70px;
 }
-   .checkers tr:nth-child(odd) td:nth-child(odd) {
+   .checkers tr:nth-child(even) td:nth-child(odd) {
 	background: gray;
 }	
-.checkers tr:nth-child(even) td:nth-child(even) {
+.checkers tr:nth-child(odd) td:nth-child(even) {
 	background: gray;
 }
+
+.checkers img {
+	width: 100%;
+	height: 100%;
+}
+
   </style>
 
 
@@ -30,23 +37,33 @@
 <table class="checkers">
 	<tr>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 	</tr>		
 	<tr>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+	</tr>
+	<tr>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 		<td></td>
+		<td><img src="res/blackFigure.png"></td>
 	</tr>
 	<tr>
 		<td></td>
@@ -69,43 +86,33 @@
 		<td></td>
 	</tr>
 	<tr>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
 	</tr>
 	<tr>
 		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 	</tr>
 	<tr>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><img src="res/whiteFigure.png"></td>
 		<td></td>
 	</tr>		
 </table>
